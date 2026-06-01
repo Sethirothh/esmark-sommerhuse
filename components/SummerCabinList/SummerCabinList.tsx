@@ -68,7 +68,7 @@ export function SummerCabinList({ summerCabins }: SummerCabinListProps) {
           onChange={(e) => setPersonsFilter(Number(e.target.value))}
           value={personsFilter}
         >
-          <option value={0}>Mængde af personer</option>
+          <option value={0}>Antal personer</option>
           <option value={2}>2 personer</option>
           <option value={4}>4 personer</option>
           <option value={6}>6 personer</option>
